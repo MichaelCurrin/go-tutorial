@@ -54,16 +54,13 @@ That URL redirects to:
 
 - https://pkg.go.dev/golang.org/x/text
 
-For help on modules see
+For help on modules see:
 
 ```sh
 $ go help modules
 ```
 
-Blog post
-
-https://blog.golang.org/using-go-modules
-
+See blog post - [Using go modules](https://blog.golang.org/using-go-modules).
 
 For comparison, see the [go.mod](https://github.com/rsc/quote/blob/v1.5.2/go.mod) file of `quote`:
 
