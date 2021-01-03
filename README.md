@@ -5,9 +5,9 @@
 [![License - MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
-## About
+## Documentation
 
-See the [Quickstart](/quickstart.md) page of this project to see how this project was created or to create your own project from scratch.
+See the [Docs](/docs/) page of this project to see how this project was created or to create your own project from scratch.
 
 
 ## License
