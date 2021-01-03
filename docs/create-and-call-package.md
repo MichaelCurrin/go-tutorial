@@ -19,16 +19,17 @@ $ go mod init example.com/greetings
 
 Create a script - [greetings.go](/greetings/go.mod).
 
+
 ## Call it
 
-From the project root.
+From the project root:
 
 ```sh
 $ mkdir hello
 $ cd hello
 ```
 
-Create a file [hello](/hello/hello.go).
+Create a file [hello.go](/hello/hello.go).
 
 Create a new module.
 
@@ -57,7 +58,7 @@ $ go build
 go: found example.com/greetings in example.com/greetings v0.0.0-00010101000000-000000000000
 ```
 
-That adds this line to `go.mod`:
+That will add this line to `go.mod`:
 
 ```go
 require example.com/greetings v0.0.0-00010101000000-000000000000
