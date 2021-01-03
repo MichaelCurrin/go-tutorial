@@ -13,11 +13,13 @@ $ mkdir greetings
 $ cd greetings
 ```
 
+Create [greetings/go.mod](/greetings/go.mod):
+
 ```sh
 $ go mod init example.com/greetings
 ```
 
-Create a script - [greetings.go](/greetings/go.mod).
+Create a script [greetings/greetings.go](/greetings/greetings.mod).
 
 
 ## Call it
@@ -29,7 +31,7 @@ $ mkdir hello
 $ cd hello
 ```
 
-Create a file [hello.go](/hello/hello.go).
+Create a file [hello/hello.go](/hello/hello.go).
 
 Create a new module.
 
@@ -45,13 +47,15 @@ And you'd reference the published module like this:
 require example.com/greetings v1.1.0
 ```
 
-For now, we adapt the caller's module so it can find the greetings code on your local file system.
+For now, we'll adapt the caller's module so it can find the greetings code on your local file system.
+
+Update [hello/go.mod](/hello/hello.go) to end with this line.
 
 ```go
 replace example.com/greetings => ../greetings
 ```
 
-Locate the module and add it to a `go.mod` file.
+Now run this locate the module and add it to the `go.mod` file.
 
 ```sh
 $ go build
