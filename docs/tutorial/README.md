@@ -8,6 +8,8 @@ Instructions followed:
 
 - https://golang.org/doc/tutorial/getting-started
 
+I find that very verbose especially when reading a second time - so I've distilled the instructions into docs in this directory and as scripts in this project.
+
 Package used:
 
 - https://pkg.go.dev/rsc.io/quote
