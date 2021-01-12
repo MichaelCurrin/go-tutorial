@@ -7,7 +7,9 @@
 
 ## Documentation
 
-See the [Docs](/docs/) page of this project to see how this project was created or to create your own project from scratch.
+See the docs of this project to see how this project was created or to create your own project from scratch.
+
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/)
 
 
 ## License
