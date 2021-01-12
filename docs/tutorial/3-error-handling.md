@@ -1,10 +1,17 @@
-# Return and handle an error
+# Error handling
+> Return and handle an error
 
-Add the following:
+See [error-handling](/error-handling/) directory.
 
-- imports `errors`
-- Use error in all the return sections
-- When you need to throw an error, use `errors.New(message)`
+```sh
+$ cd error-handling
+```
+
+Added the following:
+
+- Import `errors`.
+- Use error in all the return sections.
+- When you need to throw an error, use `errors.New(message)`.
 - Change the calling function to expect the error to be returned.
 
 
