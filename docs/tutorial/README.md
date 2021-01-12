@@ -13,3 +13,5 @@ I find that very verbose especially when reading a second time - so I've distill
 Package used:
 
 - https://pkg.go.dev/rsc.io/quote
+
+See also my [Go Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/go/), which is a quick reference that assumes you've gone through a tutorial already for detailed explanations.
