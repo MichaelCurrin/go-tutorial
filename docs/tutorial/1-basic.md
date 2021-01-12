@@ -14,9 +14,9 @@ Initialize a module.
 $ go mod init hello
 ```
 
-That generates [go.mod](/go.mod).
+That generates [go.mod](/go.mod) module file in the root of the repo.
 
-Initial content:
+The initial content was:
 
 ```go
 module hello
@@ -24,13 +24,13 @@ module hello
 go 1.15
 ```
 
-Install packages and run module.
+Install packages and run the module.
 
 ```sh
 $ go run hello.go
 ```
 
-The `go.mod` now has an extra line.
+The [go.mod](/go.mod) now has an extra line.
 
 ```go
 module hello
@@ -40,9 +40,9 @@ go 1.15
 require rsc.io/quote v1.5.2
 ```
 
-That generates [go.sum](/go.sum), which is used to check downloaded versions and checksums are what is expected.
+That generated [go.sum](/go.sum), which is used to check downloaded versions and checksums are what is expected.
 
-This file should be versioned according to the [Wiki](https://github.com/golang/go/wiki/Modules#releasing-modules-all-versions):
+This file should indeed be versioned, according to the [Wiki](https://github.com/golang/go/wiki/Modules#releasing-modules-all-versions):
 
 > Ensure your go.sum file is committed along with your go.mod file.
 
