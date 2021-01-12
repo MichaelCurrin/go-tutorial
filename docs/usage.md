@@ -54,3 +54,5 @@ $ ./hello
 ```
 Hello, World!
 ```
+
+The output file will be ignored because of the rule added to [.gitignore](/.gitignore). This was done after the other files had been added to version control, so that any `hello` directories don't get ignored.
