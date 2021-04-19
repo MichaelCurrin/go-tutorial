@@ -1,5 +1,5 @@
-# Documentation
+# Go Tutorial docs
 
-For instructions on installing Go, see this guide:
-
-- [Install Go](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/go/install-go.html)
+- [Installation](installation) - install Go.
+- [Usage](usage) - How to run the finished scripts.
+- [Tutorial](tutorial/) - How to setup the scripts and modules yourself in a separate project.
