@@ -1,4 +1,4 @@
-# Go Tutorial
+# Go Tutorial ⏩ 👩‍🏫
 > Scripts and notes based on Go's quickstart guide
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/go-tutorial?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/go-tutorial/releases/)
