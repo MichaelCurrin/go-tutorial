@@ -1,8 +1,9 @@
 # Tutorial
 
-How to setup a new project.
+How to set up a new project.
 
 This demonstrates how to install modules and run scripts, rather than a good structure for large projects.
+
 
 ## Original instructions
 
@@ -11,6 +12,7 @@ These instructions were followed:
 - [Getting Started](https://golang.org/doc/tutorial/getting-started) tutorial in Go docs.
 
 I find that very verbose, especially when reading a second time. So I've distilled the instructions into docs in this directory and as scripts in this project.
+
 
 ## Dependencies
 
