@@ -56,7 +56,7 @@ require example.com/greetings v1.1.0
 
 For now, we'll adapt the caller's module so it can find the greetings code on your local file system.
 
-Update [hello/go.mod](/create-and-call-package/hello/hello.go) to end with this line.
+Update [hello/go.mod](/create-and-call-package/hello/hello.go) to end with this line:
 
 ```go
 replace example.com/greetings => ../greetings
