@@ -16,13 +16,12 @@ I find that very verbose, especially when reading a second time. So I've distill
 
 ## Dependencies
 
-Package used:
+Packages used:
 
 - [quote](https://pkg.go.dev/rsc.io/quote)
 
 
 ## Resources
 
-See [Go Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/go/), which is a quick reference that assumes you've gone through a tutorial already for detailed explanations.
-
-See [Go Resources](https://michaelcurrin.github.io/dev-resources/resources/go/).
+- [Go Resources](https://michaelcurrin.github.io/dev-resources/resources/go/) in my Dev Resources.
+- [Go Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/go/) in my Dev Cheatsheets. A quick reference that assumes you've gone through a tutorial already for detailed explanations.
