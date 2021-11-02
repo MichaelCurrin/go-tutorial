@@ -23,5 +23,5 @@ Packages used:
 
 ## Resources
 
-- [Go Resources](https://michaelcurrin.github.io/dev-resources/resources/go/) in my Dev Resources.
+- [Go Resources](https://michaelcurrin.github.io/dev-resources/resources/go/) in my Dev Resources - note the Tutorials section.s
 - [Go Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/go/) in my Dev Cheatsheets. A quick reference that assumes you've gone through a tutorial already for detailed explanations.
