@@ -1,12 +1,11 @@
 # Basic module
 
-This covers top-level files in this project.
+- [basic](/basic/)
+    - [hello.go](/basic/hello.go)
+    - [go.mod](/basic/go.mod)
+    - [go.sum](/basic/go.sum)
 
-- [hello.go](/hello.go)
-- [go.mod](/go.mod)
-- [go.sum](/go.sum)
-
-Create [hello.go](/hello.go) with an import of `quote`.
+Create [hello.go](/basic/hello.go) with an import of `quote`.
 
 Initialize a module.
 
@@ -14,11 +13,11 @@ Initialize a module.
 $ go mod init hello
 ```
 
-That generates [go.mod](/go.mod) module file in the root of the repo.
+That generates [go.mod](/basic/go.mod) module file in the root of the repo.
 
 The initial content was:
 
-```go
+```
 module hello
 
 go 1.15
@@ -30,9 +29,9 @@ Install packages and run the module.
 $ go run hello.go
 ```
 
-The [go.mod](/go.mod) now has an extra line.
+The [go.mod](/basic/go.mod) now has an extra line.
 
-```go
+```
 module hello
 
 go 1.15
@@ -40,7 +39,7 @@ go 1.15
 require rsc.io/quote v1.5.2
 ```
 
-That generated [go.sum](/go.sum), which is used to check downloaded versions and checksums are what is expected.
+That generated [go.sum](/basic/go.sum), which is used to check downloaded versions and checksums are what is expected.
 
 This file should indeed be versioned, according to the [Wiki](https://github.com/golang/go/wiki/Modules#releasing-modules-all-versions):
 
