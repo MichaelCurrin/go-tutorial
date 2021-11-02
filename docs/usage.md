@@ -5,15 +5,14 @@ How to run the modules which have been added to this project.
 
 ## Basic
 
-This uses the module at the top-level of this repo. It relies on an external library but does not import from any local modules.
+This uses the module in [basic](/basic/) directory.
+
+It relies on an external library but does not import from any local modules.
 
 ```sh
+$ cd basic
 $ go run hello.go
-```
-
-Or simply:
-
-```sh
+$ # Or simply:
 $ go run .
 ```
 
@@ -28,9 +27,9 @@ Don't communicate by sharing memory, share memory by communicating.
 
 Follow this pattern for these directories which have multiple modules.
 
-- `create-and-call-package`
-- `error-handling`
-- `random-greeting`
+- [create-and-call-package](/create-and-call-package/)
+- [error-handling](/error-handling/)
+- [random-greeting](/random-greeting/)
 
 ### Run
 
