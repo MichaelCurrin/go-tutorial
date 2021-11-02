@@ -1,1 +1,4 @@
 hello
+
+# Locking exact versions isn't important for a tutorial.
+go.sum
